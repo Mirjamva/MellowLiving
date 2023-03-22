@@ -35,6 +35,9 @@ header {
 h1 {
   display: inline-block;
   margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 nav {
@@ -47,12 +50,15 @@ nav a, .language-switch {
   text-decoration: none;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
-  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
 
 nav a:hover, .language-switch:hover {
   background-color: #daa520;
   transform: translateY(-3px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -73,6 +79,9 @@ section h2 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #444;
 }
 
 footer {
@@ -89,6 +98,19 @@ blockquote {
   border-left: 5px solid #ffc107;
   margin: 1rem 0;
   font-style: italic;
+  font-size: 1.1rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 3rem;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #ffc107;
+  font-family: 'Poppins', sans-serif;
 }
 
 blockquote footer {
@@ -124,23 +146,23 @@ blockquote footer {
 }
 
 .custom-icon.community {
-  background-image: url("community_icon.png");
+  background-image: url("community_icon.svg");
 }
 
 .custom-icon.sustainability {
-  background-image: url("sustainability_icon.png");
+  background-image: url("sustainability_icon.svg");
 }
 
 .custom-icon.collaboration {
-  background-image: url("collaboration_icon.png");
+  background-image: url("collaboration_icon.svg");
 }
 
 .custom-icon.wellbeing {
-  background-image: url("wellbeing_icon.png");
+  background-image: url("wellbeing_icon.svg");
 }
 
 .custom-icon.engagement {
-  background-image: url("engagement_icon.png");
+  background-image: url("engagement_icon.svg");
 }
 
 /* Add icons to the purpose section */
@@ -159,4 +181,15 @@ blockquote footer {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+#purpose li p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+#purpose li:hover p {
+  color: #daa520;
+  text-decoration: underline;
 }
