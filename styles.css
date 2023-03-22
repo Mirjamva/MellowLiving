@@ -174,7 +174,7 @@ blockquote footer {
 /* Style the image */
 #purpose img {
   width: 100%;
-  max-width: 600px;
+  max-width: 250px; /* Reduce the max-width to make the image smaller */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -183,7 +183,7 @@ blockquote footer {
 /* Style the caption text */
 #purpose figcaption {
   font-size: 0.9rem;
-  font-style: italic;
+  font-style: italic !important; /* Add !important to ensure the font-style is applied */
   color: #777;
   margin-top: 0.5rem;
 }
