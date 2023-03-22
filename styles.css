@@ -146,23 +146,23 @@ blockquote footer {
 }
 
 .custom-icon.community {
-  background-image: url("community_icon.svg");
+  background-image: url("community_icon.png");
 }
 
 .custom-icon.sustainability {
-  background-image: url("sustainability_icon.svg");
+  background-image: url("sustainability_icon.png");
 }
 
 .custom-icon.collaboration {
-  background-image: url("collaboration_icon.svg");
+  background-image: url("collaboration_icon.png");
 }
 
 .custom-icon.wellbeing {
-  background-image: url("wellbeing_icon.svg");
+  background-image: url("wellbeing_icon.png");
 }
 
 .custom-icon.engagement {
-  background-image: url("engagement_icon.svg");
+  background-image: url("engagement_icon.png");
 }
 
 /* Add icons to the purpose section */
