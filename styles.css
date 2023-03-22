@@ -17,6 +17,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Add the following styles for the logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+/* Update the header section */
 header {
   background-color: #ffc107;
   color: #fff;
@@ -32,8 +44,10 @@ header {
   align-items: center;
 }
 
+/* Update the h1 section */
 h1 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
