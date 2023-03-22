@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Co-Living Project</title>
+  <title>Mellow Living</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,57 +11,86 @@
 </head>
 <body>
   <header>
-    <h1>Your Co-Living Project</h1>
+    <h1>Mellow Living</h1>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#spaces">Our Spaces</a>
-      <a href="#amenities">Amenities and Services</a>
+      <a href="#about">About</a>
+      <a href="#purpose">Our Purpose</a>
+      <a href="#partnership">Partnership Opportunities</a>
+      <a href="#progress">Project Progress</a>
+      <a href="#gallery">Gallery</a>
       <a href="#testimonials">Testimonials</a>
       <a href="#contact">Contact Us</a>
     </nav>
+    <div class="language-switch">Deutsch</div>
   </header>
-  
+
   <main>
-    <section id="home">
-      <h2>Welcome to Your Co-Living Project</h2>
-      <p>Discover a vibrant community where you can connect, grow, and thrive. Our co-living spaces are designed to foster deep connections and authentic expression, creating a nourishing environment for both individuals and the world.</p>
-    </section>
-    
     <section id="about">
       <h2>About Us</h2>
-      <p>Founded by a group of 20 young professionals, Your Co-Living Project aims to create a safe, healthy, and caring community in the heart of Berlin. Our residents enjoy a unique living experience that combines private living spaces with shared amenities and a strong sense of belonging.</p>
+      <p>Describe the background, vision, and mission of your project. Provide information about the team members, their skills, and experiences. Mention any advisors or mentors who are supporting the project.</p>
+      <!-- Add an image of your team -->
+      <img src="team_photo_placeholder.jpg" alt="Team photo" width="100%" />
     </section>
-    
-    <section id="spaces">
-      <h2>Our Spaces</h2>
-      <p>Our co-living spaces are designed to be comfortable, functional, and stylish. Each resident has a private bedroom and bathroom, while shared areas include a spacious living room, fully-equipped kitchen, laundry facilities, and outdoor spaces for relaxation and socializing.</p>
+
+<section id="purpose">
+  <h2>Our Purpose</h2>
+  <p>Our co-living project, Mellow Living, is founded on the belief that a close-knit community is the key to a vibrant and fulfilling life. Our purpose is to create a healthy, safe, and caring environment that encourages deep connections, authentic expression, and shared growth for everyone involved. By fostering a strong sense of community, we aim to build a sustainable future for ourselves and the world.</p>
+  <p>At the heart of Mellow Living are our core values and principles, which guide every aspect of our project:</p>
+  <ol>
+    <li>Community: We believe in the power of human connections and strive to create an inclusive, supportive environment where everyone feels welcome, valued, and heard.</li>
+    <li>Sustainability: We are committed to minimizing our environmental impact and fostering eco-friendly practices, both within our co-living space and in our daily lives.</li>
+    <li>Collaboration: We recognize the potential in each individual and encourage collaboration in our co-working and DIY spaces, where residents can share their skills, knowledge, and creativity.</li>
+    <li>Health and Well-being: We prioritize physical, mental, and emotional well-being, providing spaces and resources for exercise, relaxation, and self-care.</li>
+    <li>Engagement: We aim to engage with the wider community through events and activities that promote learning, exchange, and positive impact.</li>
+  </ol>
+  <p>Mellow Living offers a range of shared spaces and amenities designed to support our values and principles. Our co-working area provides a comfortable and inspiring environment for residents to work, collaborate, and network. The DIY space allows for hands-on creativity and learning, fostering a culture of innovation and self-sufficiency.</p>
+  <p>Our communal garden is a living testament to our commitment to sustainability and connection to nature. Here, residents can grow their food, practice gardening techniques, and enjoy the outdoors. The garden also serves as a space for events and workshops, where residents and neighbors can come together to learn, share, and grow.</p>
+  <p>Through our emphasis on community, sustainability, and well-being, Mellow Living seeks to create a nurturing, connected living experience for all our residents. We invite you to join us on this journey towards a brighter, more sustainable future.</p>
+</section>
+
+    <section id="partnership">
+      <h2>Partnership Opportunities</h2>
+      <p>Explain the benefits of partnering with your project for non-profit organizations and charities. Describe the types of partnerships you are seeking, such as providing land or buildings, financial support, or expertise.</p>
     </section>
-    
-    <section id="amenities">
-      <h2>Amenities and Services</h2>
-      <p>At Your Co-Living Project, we believe in providing our residents with everything they need to thrive. Our amenities and services include high-speed Wi-Fi, regular cleaning, 24/7 security, community events, and access to coworking spaces and recreational facilities.</p>
+
+    <section id="progress">
+      <h2>Project Progress</h2>
+      <p>Share updates on the project's current status, such as searching for land or buildings, defining the legal structure, and obtaining necessary permits or approvals.</p>
     </section>
-    
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <!-- Add images from your weekend event -->
+      <img src="event_photo_1_placeholder.jpg" alt="Event photo 1" width="49%" />
+      <img src="event_photo_2_placeholder.jpg" alt="Event photo 2" width="49%" />
+    </section>
+
     <section id="testimonials">
       <h2>Testimonials</h2>
       <blockquote>
-        <p>"Living at Your Co-Living Project has been a life-changing experience. The sense of community and support here is unlike anything I've ever experienced before."</p>
-        <footer>- Resident Name</footer>
+        <p>Quote from a project participant, mentor, or partner expressing their support and confidence in the project.</p>
+        <footer>- Person's Name, Title</footer>
       </blockquote>
       <!-- Add more testimonials as needed -->
     </section>
-    
-    <section id="contact">
+
+        <section id="contact">
       <h2>Contact Us</h2>
-      <p>If you'd like to learn more about Your Co-Living Project or schedule a tour, please get in touch with us:</p>
-      <p>Email: info@yourcolivingproject.com</p>
-      <p>Phone: +49 (0)30 123 4567</p>
+      <p>If you're interested in partnering with us or have any questions, please feel free to get in touch:</p>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
     </section>
   </main>
-  
+
   <footer>
-    <p>&copy; 2023 Your Co-Living Project. All rights reserved.</p>
+    <p>&copy; 2023 Mellow Living. All rights reserved.</p>
   </footer>
 </body>
 </html>
