@@ -231,3 +231,19 @@ blockquote footer {
   color: #daa520;
   text-decoration: underline;
 }
+
+#vision-board-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+#vision-board-images img {
+  width: calc(100% / 7 - 1%);
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
